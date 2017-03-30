@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.vendored_library = 'lib/*.a'
 
   s.frameworks = 'CFNetwork', 'PassKit', 'SystemConfiguration'
+  s.library = "c++"
 
 end
